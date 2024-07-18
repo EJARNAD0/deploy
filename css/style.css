@@ -294,6 +294,7 @@ section {
     justify-content: space-between;
     font-size: 2rem;
     padding: 1rem 2rem;
+    color: var(--white);
     background-color: var(--black);
 }
 
