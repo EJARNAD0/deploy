@@ -128,7 +128,7 @@ section {
 
 .header .navbar a:hover {
     text-decoration: underline;
-    color: black;
+    color: gray;
 }
 
 .header .navbar a {
@@ -172,7 +172,7 @@ section {
     }
 
     .header .navbar a {
-        margin: 10px 0;
+        margin: 20px 0;
         font-size: 2.5rem;
     }
 }
@@ -200,16 +200,17 @@ section {
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-    min-height: 50vh;
+    min-height: 90vh;
     color: #eee;
 }
 
 .home .image {
-    flex: 1 1 50%;
+    margin-top: 90px;
+    flex: 1 1 90%;
 }
 
 .home .image img {
-    max-width: 200px;
+    max-width: 250px;
     height: auto;
     object-fit: cover;
     border-radius: 100%;
